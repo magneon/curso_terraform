@@ -9,15 +9,15 @@ terraform {
 
 provider "aws" {
     region                  = "sa-east-1"
-    access_key              = "AKIAS5F556E5WDYCVAPF"
-    secret_key              = "O/+kwtubF/iLHZ5WQizoLEXshhY9Zh9odD2Em+wh"
+    access_key              = "put your access_key here"
+    secret_key              = "put your access_secret here"
 }
 
 provider "aws" {
     alias                   = "us-east-1"
     region                  = "us-east-1"
-    access_key              = "AKIAS5F556E5WDYCVAPF"
-    secret_key              = "O/+kwtubF/iLHZ5WQizoLEXshhY9Zh9odD2Em+wh"
+    access_key              = "put your access_key here"
+    secret_key              = "put your access_secret here"
 }
 
 resource "aws_instance" "dev" {
